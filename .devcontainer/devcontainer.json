@@ -1,0 +1,10 @@
+{
+	"name": "Vatican Development Environment",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:10.0-preview",
+	"forwardPorts": [
+		5000
+	],
+	"postCreateCommand": "dotnet restore",
+	"customizations": {},
+	"remoteUser": "root"
+}
