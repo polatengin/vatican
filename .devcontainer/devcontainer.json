@@ -5,6 +5,16 @@
 		5000
 	],
 	"postCreateCommand": "dotnet restore",
-	"customizations": {},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"ms-dotnettools.csharp",
+				"ms-dotnettools.csdevkit"
+			]
+		}
+	},
 	"remoteUser": "root"
 }
