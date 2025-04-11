@@ -11,6 +11,7 @@
 				"dbaeumer.vscode-eslint",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
+				"humao.rest-client",
 				"ms-dotnettools.csharp",
 				"ms-dotnettools.csdevkit"
 			]
