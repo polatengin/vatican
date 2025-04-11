@@ -1,0 +1,24 @@
+### Valid root request
+GET http://localhost:5000/
+Accept: application/json
+
+### Valid /get-todo-list request
+POST http://localhost:5000/get-todo-list
+Accept: application/json
+Content-Type: application/json
+
+{
+  "CategoryId": "",
+  "Page": 1,
+  "DueDate": "2023-10-01"
+}
+
+### Invalid /get-todo-list request
+POST http://localhost:5000/get-todo-list
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Page": 1,
+  "DueDate": "2023-10-01"
+}
